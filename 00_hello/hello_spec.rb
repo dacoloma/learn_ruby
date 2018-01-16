@@ -101,13 +101,13 @@
 #
 require "hello"
 
-describe "the hello function" do
+describe "#hello" do
   it "says hello" do
     expect(hello).to eq("Hello!")
   end
 end
 
-describe "the greet function" do
+describe "#greet" do
   it "says hello to someone" do
     expect(greet("Alice")).to eq("Hello, Alice!")
   end
