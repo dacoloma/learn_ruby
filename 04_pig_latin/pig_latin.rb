@@ -29,7 +29,7 @@ def translate(str)
             tab_punc << tab_word.delete_at(tab_word.length - 1)
         end
 
-        while consonne.include? value[i]
+        while consonne.include? value[i] 
             if value[i+1] == 'u'
                 tab_word.rotate!(1)
             end
